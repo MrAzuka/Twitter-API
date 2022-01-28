@@ -1,0 +1,41 @@
+{
+  "name": "twitter-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrAzuka/Twitter-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrAzuka/Twitter-API/issues"
+  },
+  "homepage": "https://github.com/MrAzuka/Twitter-API#readme",
+  "dependencies": {
+    "@eslint/create-config": "^0.1.2",
+    "express": "^4.17.2",
+    "logger": "0.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "lint-staged": "^12.3.2",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1",
+    "winston": "^3.5.0"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "prettier --write"
+    ]
+  }
+}
